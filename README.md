@@ -1,33 +1,29 @@
 # Intermediate-Python
 
-When the course is currently taught at salesforce, we've tended to get through
-notebooks 1-9, plus whatever other topics the students are interested in. 
+A successful delivery of this course involves you understanding
 
-Often that means 11, 13, 14, 16, but your mileage may vary.
+1. the backgrounds of the students in the class
+1. that there is deliberately more material that you will likely get through
+ 
+During the "Magic Hour", find out the backgrounds of the students and plan accordingly. Unfortunately,
+in more than one case, the students were nowhere near the intermediate level. As the instructor, you
+need to be prepared for a true intermediate course (i.e., this material), an introductory course, or
+a mix of the two.
+
+In order for students to be prepared for this course, they should have familiarity with Python and have
+been using it for a while. If they've only been scripting, i.e., using Python for automation a la DevOps,
+they are unlikely to be properly prepared for this course.
+
+The biggest difficult is that it is likely that not all students will have the same background. This is
+of course true in *any* course, not just this one.
+
+Once you've assessed the student backgrounds, you can make a recommendation to the class. 
+
+"This course begins with a review of basic Python concepts. How much time we spend on that depends on the
+backgrounds of the students and the questions that arise during the review. Given that most of you have a
+basic understanding of Python and tend to use Python in a scripting/DevOps background, I want to spend a
+little extra time on that first section to be sure we all have a common foundation."
 
 The Multithreading/Multiprocessing unit should be updated with more modern ways
 of doing concurrency in Python.
 
-01 Intro + Python Syntax Review.ipynb
-02 Object Oriented Programming (Part 1).ipynb
-03 Advanced Datatypes.ipynb
-04 Functional Programming.ipynb
-05 Closures and Decorators.ipynb
-06 Object-Oriented Programming (Part 2).ipynb
-07 Iterables, Iterators, and Generators.ipynb
-08 Multithreading + Multiprocessing.ipynb
-09 Testing + TDD + Mocking.ipynb
-10 Context Managers.ipynb
-11 Debugging with pdb.ipynb
-12 Introduction to Celery.ipynb
-13 Logging.ipynb
-14 virtualenv.ipynb
-15 Flask.ipynb
-16 Numpy + Pandas.ipynb
-17 Pandas + Seaborn.ipynb
-18 Beautiful Soup.ipynb
-19 Python Typing.ipynb
-Intermediate Python Workbook.ipynb
-Networking.ipynb
-PrivateClassMethods.ipynb
-Workbook.ipynb
