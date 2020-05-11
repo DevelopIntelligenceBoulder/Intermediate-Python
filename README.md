@@ -1,5 +1,7 @@
 # Intermediate-Python
 
+IMPORTANT: If you are teaching this for the first time, please set up a meeting with Dave Wade-Stein prior to teaching so you understand the difficulties in delivering this course.
+
 A successful delivery of this course involves you understanding
 
 1. the backgrounds of the students in the class
@@ -14,7 +16,7 @@ In order for students to be prepared for this course, they should have familiari
 been using it for a while. If they've only been scripting, i.e., using Python for automation a la DevOps,
 they are unlikely to be properly prepared for this course.
 
-The biggest difficult is that it is likely that not all students will have the same background. This is
+The biggest difficulty is that it is likely that not all students will have the same background. This is
 of course true in *any* course, not just this one.
 
 Once you've assessed the student backgrounds, you can make a recommendation to the class. 
