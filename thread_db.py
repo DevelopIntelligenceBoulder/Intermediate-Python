@@ -26,8 +26,7 @@ while True:
     text = input('Enter some text: ')
     if text == 'qqq':
         running = False
-        while thread.is_alive():
-            pass
+        thread.join() # wait for thread to complete
         break
     print(text[::-1], 'deretne uoY ')
 

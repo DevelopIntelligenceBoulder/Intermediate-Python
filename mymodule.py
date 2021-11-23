@@ -8,5 +8,4 @@ print('__name__ =', __name__)
 
 if __name__ == '__main__':
     # test dummy
-    if dummy() == 45:
-        print('success')
+    assert dummy() == 46

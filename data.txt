@@ -5,3 +5,4 @@ this is a bad line
 apple 3
 pear 6
 apple 1
+apple x

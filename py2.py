@@ -1,5 +1,3 @@
-print('hi')
-for num in range(1, 10):
-    print(num)
-
-print(5 / 3)
+print "hello"
+for num in xrange(10):
+   print num

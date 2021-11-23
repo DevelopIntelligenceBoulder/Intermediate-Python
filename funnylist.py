@@ -3,7 +3,7 @@ class FunnyList(list):
         """Allows us to create a FunnyList not only from a list,
            but ALSO from a single element
         """
-        if type(item) == list:
+        if isinstance(item, list):
             return super().__init__(item)
         else:
             return super().__init__([item])

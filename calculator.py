@@ -15,6 +15,11 @@ class Calc():
         self.total = other.total
         return self
 
+    def determine_values(self, op1, op2):
+        if op2 is None:
+            return self.total, op1
+        return op1, op2
+    
     def notecalc(self, op, op1, op2):
         '''Add latest calculation to the running list.'''
         calc = ''
@@ -27,9 +32,7 @@ class Calc():
 
     def add(self, op1, op2=None):
         '''Add two numbers. If only one number supplied, add to running total.'''
-        if op2 == None:
-            op2 = op1
-            op1 = self.total
+        op1, op2 = self.determine_values(op1, op2)
         self.total = op1 + op2
         self.notecalc('+', op1, op2)
         return self.total
@@ -39,9 +42,7 @@ class Calc():
         running total.
         '''
 
-        if op2 == None:
-            op2 = op1
-            op1 = self.total
+        op1, op2 = self.determine_values(op1, op2)
         self.total = op1 - op2
         self.notecalc('-', op1, op2)
         return self.total
@@ -50,9 +51,7 @@ class Calc():
         '''Multiply two numbers. If only one number supplied, multiply
         running total.
         '''
-        if op2 == None:
-            op2 = op1
-            op1 = self.total
+        op1, op2 = self.determine_values(op1, op2)
         self.total = op1 * op2
         self.notecalc('*', op1, op2)
         return self.total
@@ -61,9 +60,7 @@ class Calc():
         '''Raise a number to a power. If no number supplied, raise the
         running total to the power. 
         '''
-        if op2 == None:
-            op2 = op1
-            op1 = self.total
+        op1, op2 = self.determine_values(op1, op2)
         self.total = math.pow(op1, op2)
         self.notecalc('**', op1, op2)
         return self.total
@@ -72,7 +69,7 @@ class Calc():
         '''Take log/log10 of a number. If no number supplied, take log
         of the running total.
         '''
-        if op1 == None:
+        if op1 is None:
             op1 = self.total
         if logtype == 'log':
             self.total = math.log(op1)

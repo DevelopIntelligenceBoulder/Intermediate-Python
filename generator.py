@@ -11,7 +11,7 @@ def is_prime(num):
 def get_primes(num):
     while True:
         if is_prime(num):
-            print("get_primes yielding", num)
+            #print("get_primes yielding", num)
             num = yield num 
             print("get_primes received", num)
         num += 1

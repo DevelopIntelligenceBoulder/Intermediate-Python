@@ -1,4 +1,5 @@
 class BankAccount():
+    '''this and that'''
     def __init__(self, name, initial_balance):
         self.name = name
         self.balance = initial_balance
@@ -16,7 +17,7 @@ class BankAccount():
 
     def __add__(self, other):
         return BankAccount(self.name + ' ' + other.name, \
-				self.balance + other.balance)
+                                self.balance + other.balance)
     def __len__(self):
         return self.balance
     
