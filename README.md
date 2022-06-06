@@ -6,6 +6,7 @@ A successful delivery of this course involves you understanding
 
 1. the backgrounds of the students in the class
 1. that there is deliberately more material that you will likely get through
+1. the notebooks are vastly different in terms of depth (and time allocated)
  
 During the "Magic Hour", find out the backgrounds of the students and plan accordingly. Unfortunately,
 in more than one case, the students were nowhere near the intermediate level. As the instructor, you
