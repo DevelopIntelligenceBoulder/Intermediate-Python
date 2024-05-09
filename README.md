@@ -31,6 +31,7 @@ Note that previous deliveries have spent anywhere from 1-2 hours to as much as a
 In addition, you'll have to decide which "track" to take:
 - Developer
 - DevOps
+- Data Analysts
 
 The course was originally designed with developers in mind, but you'll often have students whose primary job function is more in the DevOps/SRE or Infrastructure Engineer role. For DevOps, you need not cover notebook 6 (the second part of object-oriented programming). Those students are not likely to write any object-oriented code, although they certainly will "consume" object-oriented code when they import modules and therefore should have a basic understand of OO Python.
 
